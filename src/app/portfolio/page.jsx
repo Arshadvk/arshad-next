@@ -10,94 +10,78 @@ import { useState } from "react";
 
 const portfolioData = [
   {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
+    title: 'Space Property',
+    subtitle: 'Live Link',
+    href: 'https://spaceproperties.ae/',
+    src: '/images/work/space.jpg',
+    category: 'web_development',
+  },
+  {
+    title: 'Aravia',
+    subtitle: 'Live Link',
+    href: 'https://aravia.ae/',
+    src: '/images/work/saloon.jpg',
+    category: 'web_development',
+  },
+  {
+    title: 'P C F',
+    subtitle: 'Live Link',
+    href: 'https://pcfgcc.com/',
+    src: '/images/work/pdp.jpg',
+    category: 'web_development',
+  },
+  {
+    title: 'Max Office',
+    subtitle: 'Live Link',
+    href: 'https://www.maxoffice.ae/',
+    src: '/images/work/maxoffice.jpg',
+    category: 'web_development',
+  },
+  {
+    title: 'Maxhome property',
+    subtitle: 'Live Link',
     href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_4.jpeg',
-    category: 'ui_ux_design',
+    src: '/images/work/maxhome.jpg',
+    category: 'web_development',
   },
   {
     title: 'Colorful Art Work',
-    subtitle: 'See Details',
+    subtitle: 'Live Link',
     href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_5.jpeg',
-    category: 'logo_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_6.jpeg',
-    category: 'web_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_7.jpeg',
+    src: '/images/work/phone.jpg',
     category: 'mobile_apps',
   },
   {
     title: 'Colorful Art Work',
-    subtitle: 'See Details',
+    subtitle: 'Live Link',
     href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_8.jpeg',
-    category: 'ui_ux_design',
+    src: '/images/work/flower shop.jpg',
+    category: 'web_development',
   },
   {
     title: 'Colorful Art Work',
-    subtitle: 'See Details',
+    subtitle: 'Live Link',
     href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_9.jpeg',
-    category: 'web_design',
+    src: '/images/work/amt.jpg',
+    category: 'web_development',
   },
   {
     title: 'Colorful Art Work',
-    subtitle: 'See Details',
+    subtitle: 'Live Link',
     href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_10.jpeg',
-    category: 'logo_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_4.jpeg',
-    category: 'ui_ux_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_5.jpeg',
-    category: 'logo_design',
-  },
-  {
-    title: 'Colorful Art Work',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_6.jpeg',
-    category: 'web_design',
+    src: '/images/work/caffe.jpg',
+    category: 'web_development',
   },
 ];
 const categoryMenu = [
   {
-    title: 'Web Design',
-    category: 'web_design',
-  },
-  {
-    title: 'UI/UX Design',
-    category: 'ui_ux_design',
+    title: 'Web Development',
+    category: 'web_development',
   },
   {
     title: 'Mobile Apps',
     category: 'mobile_apps',
-  },
-  {
-    title: 'Logo Design',
-    category: 'logo_design',
-  },
-];
+  },]
 
 export default function PortfolioPage() {
   const [active, setActive] = useState('all');
@@ -178,7 +162,7 @@ export default function PortfolioPage() {
       </Div>
       <Spacing lg="145" md="80" />
       <Cta
-        title="agency@arino.com"
+        title="arshadvk7560@gmail.com"
         bgSrc="/images/cta_bg_2.jpeg"
         variant="rounded-0"
       />

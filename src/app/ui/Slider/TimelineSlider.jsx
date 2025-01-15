@@ -6,48 +6,31 @@ import Timeline from '../Timeline';
 const timelineData = [
   [
     {
-      year: '2019',
-      name: 'Google awards',
-      position: 'Website of the day',
-      type: 'Mobile exelence',
+      year: 'Software Developer',
+      name: 'Maxhome Property',
+      position: 'Jan 2024 - Present',
+      type: '',
     },
     {
-      year: '2021',
-      name: 'CSS awards design',
-      position: 'Honorable mention',
-      type: 'Desktop exelence',
+      year: 'Web Developer',
+      name: 'Flyseosys',
+      position: 'Dec 2022 - Jan 2024',
+      type: '',
     },
+   
+    
   ],
   [
     {
-      year: '2020',
-      name: 'New technology innovation',
-      position: 'Honorable mention',
-      type: 'Desktop exelence',
+      year: 'B C A',
+      name: 'Rabindranath Tagore University',
+      position: '2021 - 2024',
+      type: '',
     },
-    {
-      year: '2022',
-      name: 'UI/UX design of the month',
-      position: 'Website of the day',
-      type: 'Mobile exelence',
-    },
+   
   ],
-  [
-    {
-      year: '2019',
-      name: 'Google awards',
-      position: 'Website of the day',
-      type: 'Mobile exelence',
-    },
-    {
-      year: '2021',
-      name: 'CSS awards design',
-      position: 'Honorable mention',
-      type: 'Desktop exelence',
-    },
-  ],
-];
 
+];
 export default function TimelineSlider() {
   /** Slider Settings **/
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (

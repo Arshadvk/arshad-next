@@ -32,8 +32,8 @@ export default function Header({ variant }) {
           <Div className="container">
             <Div className="cs-main_header_in">
               <Div className="cs-main_header_left">
-                <Link className="cs-site_branding" href="/">
-                  <img src="/images/logo.svg" alt="Logo" />
+              <Link className="cs-site_branding pt-4" href="/">
+                <h4>Arshad</h4>
                 </Link>
               </Div>
               <Div className="cs-main_header_center">
