@@ -131,6 +131,7 @@ export default function PortfolioPage() {
               }`}
               key={index}
             >
+      
               <Portfolio
                 title={item.title}
                 subtitle={item.subtitle}
