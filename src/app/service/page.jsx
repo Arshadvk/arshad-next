@@ -11,11 +11,6 @@ import Spacing from "@/app/ui/Spacing";
 export default function ServicesPage() {
   return (
     <>
-      <PageHeading 
-        title='Services'
-        bgSrc='/images/service_hero_bg.jpeg'
-        pageLinkText='Services'
-      />
       <Spacing lg='150' md='80'/>
       <Div className='cs-shape_wrap_4'>
         <Div className="cs-shape_4"></Div>

@@ -37,14 +37,6 @@ const funfaceData = [
 export default function AboutPage() {
   return (
     <>
-      {/* Start Page Heading Section */}
-      <PageHeading
-        title="About Us"
-        bgSrc="/images/about_hero_bg.jpeg"
-        pageLinkText="About Us"
-      />
-      {/* End Page Heading Section */}
-
       {/* Start About Section */}
       <Spacing lg="150" md="80" />
       <Div className="container">

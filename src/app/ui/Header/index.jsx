@@ -236,6 +236,15 @@ export default function Header({ variant }) {
                         </ul>
                       </DropDown>
                     </li>
+                    <li>
+                      <Link
+                        href="/profile"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                        Profile
+                      </Link>
+                    </li>
+
                     <li className="menu-item-has-children">
                       <Link href="/" onClick={() => setMobileToggle(false)}>
                         Pages
