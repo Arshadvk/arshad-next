@@ -9,30 +9,19 @@ import SectionHeading from "../ui/SectionHeading"
 
 const educationData = [
   {
-    title: 'Bachelor In Web Technology',
-    subTitle: 'University Of Florida | 2008-20012',
-  },
-  {
-    title: 'Masters In Graphic Design',
-    subTitle: 'University Of Coventry | 2013-2015',
-  },
-  {
-    title: 'Diploma In Motion Graphic',
-    subTitle: 'University Of Florida | 2018-20020',
+    title: "Bachelor of Computer Applications",
+    subTitle: "Rabindranath Tagore University | 2021-2024",
   },
 ];
+
 const experienceData = [
   {
-    title: 'Senior Graphic Designer',
-    subTitle: 'Web Tech | 2022-2024',
+    title: "Web Developer",
+    subTitle: "Flyseosys | 2022-2024",
   },
   {
-    title: 'Project Manager',
-    subTitle: 'Awesome Themez | 2020-2022',
-  },
-  {
-    title: 'Word Press Developer',
-    subTitle: 'Mount Soft IT | 2018-2020',
+    title: "Software Developer",
+    subTitle: "Maxhome Property | 2022-2024",
   },
 ];
 
