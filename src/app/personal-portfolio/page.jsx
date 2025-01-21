@@ -165,6 +165,7 @@ export default function PersonalPortfolioHome() {
     <>
       <Hero11
         introTitle="Hello, I am 👋"
+      
         title="Mila Decosta"
         subtitle="Hailing from London, UK, I come with a wealth of web & app UI/UX design expertise. I'm eager to engage in a conversation with you about our distinctive offerings and passions."
         btnLink="/portfolio"

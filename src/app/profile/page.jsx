@@ -31,10 +31,12 @@ export default function TeamDetails() {
      
       <Spacing lg='150' md='80'/>
       <Div className="container">
+
         <Div className="row align-items-center">
           <Div className="col-xl-5 col-lg-6">
             <Div className="cs-radius_15 cs-shine_hover_1">
               <Image src={imgUrl} alt="Member" className="w-100" placeholder="blur" />
+              
             </Div>
           </Div>
           <Div className="col-lg-6 offset-xl-1">
